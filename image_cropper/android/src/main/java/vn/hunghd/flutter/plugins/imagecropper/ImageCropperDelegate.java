@@ -195,11 +195,11 @@ public class ImageCropperDelegate implements PluginRegistry.ActivityResultListen
           }
         }
         else{
-        if (statusBarColor != null) {
-            options.setStatusBarColor(statusBarColor);
-        } else if (toolbarColor != null) {
-            options.setStatusBarColor(darkenColor(toolbarColor));
-        }
+        // if (statusBarColor != null) {
+        //     options.setStatusBarColor(statusBarColor);
+        // } else if (toolbarColor != null) {
+        //     options.setStatusBarColor(darkenColor(toolbarColor));
+        // }
         }
         if (toolbarWidgetColor != null) {
             options.setToolbarWidgetColor(toolbarWidgetColor);
