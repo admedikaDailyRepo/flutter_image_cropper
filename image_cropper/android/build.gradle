@@ -37,9 +37,16 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+
+    // TODO: COBA nanti menaikan versi uCrop nya nanti
     dependencies {
         // implementation 'com.github.yalantis:ucrop:2.2.10'
-        implementation 'com.github.admedikaDailyRepo:uCrop:2.2.11-adding-padding-SNAPSHOT'
+        implementation 'com.github.admedikaDailyRepo:uCrop:2.2.11-adding-padding-470238eb07-1'
+        // OkHttp (WAJIB untuk menghilangkan error missing class)
+        implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+
+        // Support FLAG_IMMUTABLE / FLAG_MUTABLE
+        implementation 'androidx.core:core-ktx:1.10.1'
         implementation 'androidx.preference:preference:1.2.1'
     }
 }
