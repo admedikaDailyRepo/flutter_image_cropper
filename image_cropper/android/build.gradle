@@ -41,7 +41,9 @@ android {
     // TODO: COBA nanti menaikan versi uCrop nya nanti
     dependencies {
         // implementation 'com.github.yalantis:ucrop:2.2.10'
-        implementation 'com.github.admedikaDailyRepo:uCrop:2.2.11-adding-padding-470238eb07-1'
+        implementation 'com.github.admedikaDailyRepo:uCrop:470238e'
+        // OLD-2    : 2.2.11-adding-padding-470238eb07-1'
+        // OLD      : 2.2.11-adding-padding-SNAPSHOT
         // OkHttp (WAJIB untuk menghilangkan error missing class)
         implementation 'com.squareup.okhttp3:okhttp:4.9.3'
 
